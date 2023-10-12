@@ -216,19 +216,53 @@ h5.text-center.pt-2 {
     }
 }
 
+
+@media (min-width: 768px) and (max-width: 991px){
+    button.navbar-toggler.d-lg-none {
+        margin-right: -301% !important;
+        background-color: white;
+        width: 32%;
+        border-radius: 5px;
+        padding: 7px;
+        border: none;
+    }
+}
+
+
+
+
+
+
 @media (max-width: 575.98px) {
 
+
+    button.navbar-toggler.d-lg-none {
+        margin-right: -100% !important;
+        position: relative !important;
+    padding: 3px !important;
+    left: -35px !important;
+    height: 39px !important;
+    background-color: white !important;
+    width: 34% !important;
+    }
 
     .offcanvas-body {
         line-height: 60px;
     }
 
     img.img-fluid.logos {
-        width: 50%;
+        width: 50% !important;
+        position: relative;
+        left: -22px;
     }
+    
 
     button.navbar-toggler.d-lg-none {
-        margin-right: -50%;
+        position: relative;
+        left: -47px;
+        height: 42px;
+        background-color: white;
+        width: 40%;
     }
     .row.socialicons {
         width: 75%;
